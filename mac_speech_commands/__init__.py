@@ -17,4 +17,3 @@ def replace(text,functions):
             return func(value)
         return m[0]
     return re.sub(r'\[\[(.+)\]\]', repl, text)
-
