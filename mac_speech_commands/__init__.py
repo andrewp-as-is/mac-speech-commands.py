@@ -1,13 +1,14 @@
-#!/usr/bin/env app python
-import public
+__all__ = ['replace']
+
+
 import re
 
 """
 https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html
 """
 
-@public.add
-def replace(text,functions):
+
+def replace(text, functions):
     """replace speech commands in text with functions output"""
     def repl(m):
         command = m[0][2:-2].split(" ")[0]

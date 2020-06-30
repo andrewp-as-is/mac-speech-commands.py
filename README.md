@@ -1,22 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/badge/OS-macOS-blue.svg?longCache=True)]()
-[![](https://img.shields.io/pypi/pyversions/mac-speech-commands.svg?longCache=True)](https://pypi.org/project/mac-speech-commands/)
-[![](https://img.shields.io/pypi/v/mac-speech-commands.svg?maxAge=3600)](https://pypi.org/project/mac-speech-commands/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/mac-speech-commands.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/mac-speech-commands.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/mac-speech-commands.svg?maxAge=3600)](https://pypi.org/project/mac-speech-commands/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/mac-speech-commands.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/mac-speech-commands.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install mac-speech-commands
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`mac_speech_commands.replace(text, functions)` |replace speech commands in text with functions output
 
 #### Examples
 russian minutes plural:
@@ -34,5 +28,5 @@ mac_speech_commands.replace(text,functions)
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
